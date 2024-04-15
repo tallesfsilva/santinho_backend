@@ -27,7 +27,7 @@ async function verifyToken(
       user_id: string;
       email: string;
     };
-    console.log(decoded)
+  
 
     const userExists = await User.findById(user_id);
      
